@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--This is Form tage which used to create forms in website-->
+    <!--action attribute is used to submit and redirect to other in project page-->
+    <form action="/contact-me">
+        <!--label tage is use set field name and also make filed clickable-->
+        <label for="emial">UserName: </label><input type="text" id="emial" placeholder="E-mail" name="username" value="" required="true"><br><br>
+        <label for="userpassword">Password: </label><input id="userpassword" type="password" required="true"><br><br>
+        <label for="date">Date:</label><input id="date" type="date"><br><br>
+        <label for="file">File:</label><input type="file"><br><br>
+        Color: <input type="color"><br><br>
+        Range: <input type="range"><br><br>
+        Poke me: <input type="button" value="poked"><br><br>
+        <label for="male">Male:</label>
+        <input id="male" type="radio" name="Gender" value="male"><br>
+        <label for="female">Female:</label>
+        <input id="female" type="radio" name="Gender" value="female"><br>
+        <label for="other">Other:</label>
+        <input id="other" type="radio" name="Gender" value="other"><br><br>
+        <label for="C Language">C Language:</label>
+        <input id="C Language" type="checkbox" name="Language" value="C"><br>
+        <label for="C++">C++:</label>
+        <input type="checkbox" id="C++" name="Language" value="C"><br>
+        <label for="HTML">HTML:</label>
+        <input type="checkbox" id="HTML" name="Language" value="HTML"><br><br>
+        <label for="Country">Select Country:</label>
+        <select name="Country" id="Country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select><br><br>
+        <textarea name="Coverletter" id="Coverletter" cols="50" rows="4">
+            Write Your Coverletter Here
+        </textarea><br><br>
+        <input type="submit"><br>
+    <!--iframe is use to show other website contain or video or other things on our website-->
+    <!--in the first iframe tag i display one youtube video
+        in the second iframe tag i display the game which is playable-->
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/Un4xvzFuEQY?si=fZa5UtVwfm6-_VPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://html5.gamedistribution.com/613ca82199d44fb2be3db85e31008e4a/?gd_sdk_referrer_url=https://gamedistribution.com/games/animal-block-pop-puzzle/" width="500" height="400" ></iframe>
+    </form>
+</body>
+</html>
